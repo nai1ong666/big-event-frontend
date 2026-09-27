@@ -1,38 +1,37 @@
-# big-event
+# 大事件 - 前端项目
+基于 Vue3 + Vite + Element Plus 开发的个人文章管理系统前端。
 
-This template should help get you started developing with Vue 3 in Vite.
+## 配套后端
+后端仓库：https://github.com/nailong666/big-event
+后端使用 SpringBoot + MyBatis + Redis + MySQL + OSS
 
-## Recommended IDE Setup
+## 说明
+本项目为学习练习项目，前后端分离架构。
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 技术栈
+- Vue3 + Composition API
+- Vite
+- Element Plus
+- Pinia（状态管理）
+- Vue Router
+- Axios
 
-## Recommended Browser Setup
+## 项目功能
+1. 用户登录、注册、重置密码
+2. 个人信息修改、头像上传
+3. 文章分类管理
+4. 文章发布、编辑、删除、列表查询
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+## 项目启动
+```bash
+# 安装依赖
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# 本地运行
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# 打包构建
 npm run build
-```
+
+
+
